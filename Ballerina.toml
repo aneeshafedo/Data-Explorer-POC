@@ -1,0 +1,15 @@
+[project]
+org-name= "aneesha"
+version= "0.1.0"
+name= "db_service"
+
+[dependencies]
+[[platform.java11.dependency]]
+groupId = "mysql"
+artifactId = "mysql-connector-java"
+version = "8.0.25"
+
+[[platform.java11.dependency]]
+groupId = "com.microsoft.sqlserver"
+artifactId = "mssql-jdbc"
+version = "9.4.0.jre8"
